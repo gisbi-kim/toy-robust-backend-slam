@@ -21,7 +21,6 @@ include_directories("${PROJECT_SOURCE_DIR}/src")
 include_directories(
   ${CERES_INCLUDE_DIRS}
   ${EIGEN3_INCLUDE_DIRS}
-  ${DBOW3_INCLUDE_DIRS}
 )
 
 add_executable( main ${SRC} )
