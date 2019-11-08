@@ -12,7 +12,7 @@
 ### How to run 
 - move to DCS-ceres directory just run 
 ```
-$ ./main DATASET_NAME_WITHOUGH_DOTG2O NUM_OUTLIER_LOOPS DSC_ON
+$ ./do_build.sh DATASET_NAME_WITHOUGH_DOTG2O NUM_OUTLIER_LOOPS DSC_ON
 ```
 - for example, 
 ```
