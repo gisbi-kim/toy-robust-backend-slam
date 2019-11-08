@@ -14,7 +14,7 @@
 ```
 $ ./main DATASET_NAME_WITHOUGH_DOTG2O NUM_OUTLIER_LOOPS DSC_ON
 ```
-for example, 
+- for example, 
 ```
 $ ./do_build.sh INTEL 50 1 # USING DCS
 $ ./do_build.sh INTEL 50 0 # NOT USING DCS
