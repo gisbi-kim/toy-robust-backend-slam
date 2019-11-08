@@ -16,6 +16,6 @@ $ ./main DATASET_NAME_WITHOUGH_DOTG2O NUM_OUTLIER_LOOPS DSC_ON
 ```
 - for example, 
 ```
-$ ./do_build.sh INTEL 50 1 # USING DCS
-$ ./do_build.sh INTEL 50 0 # NOT USING DCS
+$ ./do_build.sh INTEL 50 1 # USING DCS, with 50 outlier loops on INTEL dataset
+$ ./do_build.sh INTEL 50 0 # NOT USING DCS, with 50 outlier loops on INTEL dataset
 ```
