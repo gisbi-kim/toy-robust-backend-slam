@@ -24,12 +24,13 @@ $ ./do_build.sh INTEL 50 0 # NOT USING DCS, with 50 outlier loops on INTEL datas
 ### What is DCS?
 - As its name, literally, it dynamically scales the covariance. 
 - At the code level, it is more easy to understand (just 4 lines are added.)
-- If $\psi$ (denoted $s$ in the original paper) is equal to $1$, it is same as the original one, which is not robust to the outlier loops.
+- Simply, $\Phi$ is a free parameter (i.e., user parameter). In the author's [original paper [ICRA 13)](http://www2.informatik.uni-freiburg.de/~spinello/agarwalICRA13.pdf), they changed this value from 0.1 to 10 and reported the performances for those ranges.
 
 ![code_ex](./DCS-ceres/docs/code_Ex.png)
 
+- If "psi" (denoted s in the original paper) is equal to 1, it is same as the original one, which is not robust to the outlier loops.
+
 - Here, the detailed exaplanation of the mathematical derivation is ommitted and refer the [original paper](http://www2.informatik.uni-freiburg.de/~spinello/agarwalICRA13.pdf) 
-- Simply, $\Phi$ is a free parameter (i.e., user parameter). In the author's [original paper [ICRA 13)](http://www2.informatik.uni-freiburg.de/~spinello/agarwalICRA13.pdf), they changed this value from 0.1 to 10 and reported the performances for those ranges.
 
 
 ### Experimental results 
