@@ -1,8 +1,8 @@
 # toy-robust-backend-slam
-- Goal: Toy DCS for understand the importance of a robust back-end system for robust SLAM.
+- Goal: Toy and hands-on DCS codes for 2D graph SLAM to understand the importance of a robust back-end system for robust SLAM.
 
 ### Notes
-- The many parts of this repository's code are barrowed from https://github.com/mpkuse/toy-pose-graph-optimization-ceres.
+- The almost parts of this repository's code are barrowed from https://github.com/mpkuse/toy-pose-graph-optimization-ceres.
 - I added some useful other datasets from [Luca Carlone's site](https://lucacarlone.mit.edu/datasets/). 
 - I refactored codes and directory structures for better understanding.
 - I added my own results and discussions with repect to DCS On/Off, a portion of outliers, and datasets. 
