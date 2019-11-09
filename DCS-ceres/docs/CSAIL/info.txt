@@ -1,0 +1,5 @@
+Original:
+    total nodes : 1045
+    total nEdgesOdometry : 1044
+    total nEdgesClosure : 128
+

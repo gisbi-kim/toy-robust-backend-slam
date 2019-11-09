@@ -10,8 +10,9 @@
 - (To do) I extended the original 2D example to 3D (i.e., SE3) examples. 
 
 ### How to run 
-- move to DCS-ceres directory just run 
+- move to DCS-ceres directory just run (dependency: ceres is required)
 ```
+$ cd DCS-ceres
 $ ./do_build.sh DATASET_NAME_WITHOUGH_DOTG2O NUM_OUTLIER_LOOPS DSC_ON
 ```
 - for example, 
@@ -19,3 +20,13 @@ $ ./do_build.sh DATASET_NAME_WITHOUGH_DOTG2O NUM_OUTLIER_LOOPS DSC_ON
 $ ./do_build.sh INTEL 50 1 # USING DCS, with 50 outlier loops on INTEL dataset
 $ ./do_build.sh INTEL 50 0 # NOT USING DCS, with 50 outlier loops on INTEL dataset
 ```
+
+### Experimental results 
+#### dataset: INTEL
+
+
+
+#### dataset: CSAIL
+
+
+
